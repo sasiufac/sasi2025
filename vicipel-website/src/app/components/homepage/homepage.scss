@@ -1,5 +1,5 @@
 .hero-section {
-  background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+  background: #000000;
   position: relative;
   overflow: hidden;
   
@@ -20,18 +20,17 @@
     padding-top: 100px;
   }
 
-  /* NOVO: Contêiner da imagem agora é flex para centralizar o logo */
   .hero-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Garante que o alinhamento vertical funcione bem */
+    height: 100%; 
   }
   
   .event-badge {
     .badge {
-      background-color: var(--warning-yellow) !important;
-      color: var(--text-dark);
+      background-color: #8C52FF !important;
+      color: #FFFFFF;
       font-weight: 600;
     }
   }
@@ -51,14 +50,14 @@
   }
   
   .btn-warning {
-    background-color: var(--warning-yellow);
-    border-color: var(--warning-yellow);
-    color: var(--text-dark);
+    background-color: #8C52FF;
+    border-color: #8C52FF;
+    color: #FFFFFF;
     font-weight: 600;
     
     &:hover {
-      background-color: #e6a532;
-      border-color: #e6a532;
+      background-color: #7433f6;
+      border-color: #7433f6;
       transform: translateY(-2px);
     }
   }
@@ -76,13 +75,11 @@
     max-width: 400px;
     filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
     
-    /* NOVO: Animação sutil para o logo */
     animation: fadeInSlideUp 0.8s ease-out forwards;
     opacity: 0;
   }
 }
 
-/* NOVO: Keyframes para a animação do logo */
 @keyframes fadeInSlideUp {
   from {
     opacity: 0;
@@ -117,7 +114,7 @@
   .highlight-icon {
     i {
       font-size: 2.5rem;
-      color: var(--warning-yellow);
+      color: #9c6ef8;
     }
   }
 }
@@ -136,7 +133,6 @@
   }
   
   .logo-hero {
-    /* O comentário sobre mover para a esquerda foi resolvido pela centralização flex */
     margin-top: 3rem;
     max-width: 300px;
   }
@@ -144,16 +140,14 @@
 
 .highlights-section {
   background: rgba(0, 0, 0, 0.2);
-  padding-bottom: 4rem; /* Adicionado para dar mais espaço inferior */
+  padding-bottom: 4rem; 
   
   .highlight-card {
-    /* Propriedades para garantir a mesma altura */
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    justify-content: center; 
     
-    /* Estilos existentes */
     padding: 2rem 1rem;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
@@ -168,7 +162,7 @@
   .highlight-icon {
     i {
       font-size: 2.5rem;
-      color: var(--warning-yellow);
+      color: #9c6ef8;
     }
   }
 }
@@ -187,7 +181,6 @@
   }
   
   .logo-hero {
-    //tem que colocar ela mais para a esquerda
     margin-top: 3rem;
     max-width: 300px;
   }

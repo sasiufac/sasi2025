@@ -3,7 +3,7 @@
   transition: all 0.3s ease;
   
   .logo {
-    height: 60px;
+    height: 80px;
     width: auto;
   }
   
@@ -27,21 +27,21 @@
     cursor: pointer;
     
     &:hover {
-      color: var(--primary-green);
+      color: #8C52FF;
     }
   }
   
   .btn-primary {
-    background-color: var(--primary-green);
-    border-color: var(--primary-green);
+    background-color: #000000;
+    border-color: #000000;
     padding: 0.5rem 1.5rem;
     font-weight: 600;
     
     &:hover {
-      background-color: var(--secondary-green);
-      border-color: var(--secondary-green);
+      background-color: #7935ff;
+      border-color: #7935ff;
     }
-  }
+  } 
 }
 
 @media (max-width: 991px) {
