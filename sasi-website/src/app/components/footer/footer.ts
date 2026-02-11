@@ -52,34 +52,82 @@ export class Footer {
   
   patrocinadores: Patrocinador[] = [
     {
-      name: "Embrapa",
-      logo: "logo1.png",
+      name: "3D Acre",
+      logo: "3d_acre.jpg"
     },
     {
-      name: "Seagro",
-      logo: "logo2.png",
+      name: "Algorithms School",
+      logo: "algorithms_school.png"
     },
     {
-      name: "Seagri",
-      logo: "logo3.png",
+      name: "Amazon Web Services",
+      logo: "Amazon_Web_Services_Logo.svg.png"
     },
     {
-      name: "Fórum de Desenvolvimento",
-      logo: "logo4.png",
+      name: "Artesanale",
+      logo: "artesanale.jpeg"
     },
     {
-      name: "SENAR/FIEAC",
-      logo: "logo5.png"
+      name: "CASI",
+      logo: "casi.png"
+    },
+    {
+      name: "Cidtech Informática",
+      logo: "cidtec_preto.png"
+    },
+    {
+      name: "Cookeria",
+      logo: "cookeria.jpg"
+    },
+    {
+      name: "IEEE",
+      logo: "ieee_ufac.png"
+    },
+    {
+      name: "Jupara",
+      logo: "jupara.png"
+    },
+    {
+      name: "Escola Superior de Redes",
+      logo: "logo-esr-new-white-2.png"
+    },
+    {
+      name: "Made In Acre",
+      logo: "made_in_acre.png"
+    },
+    {
+      name: "Motorola",
+      logo: "motorola.png"
+    },
+    {
+      name: "Piticas",
+      logo: "piticas.png"
+    },
+    {
+      name: "Proint",
+      logo: "proint.jpg"
+    },
+    {
+      name: "RNP",
+      logo: "rnp.png"
+    },
+    {
+      name: "Rocketseat",
+      logo: "rocket.png"
     },
     {
       name: "SEBRAE",
-      logo: "logo6.png"
+      logo: "sebrae.png"
     },
     {
-      name: "UFAC",
-      logo: "logo5.png"
+      name: "Soberanos",
+      logo: "soberanos.jpeg"
+    },
+    {
+      name: "Via Verde Shopping",
+      logo: "via_verde_shopping.png"
     }
-  ]
+  ];
 
   redesSociais = [
     {

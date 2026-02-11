@@ -9,8 +9,8 @@
 
       <div class="col-6 col-md-4 col-lg-3">
         <div class="partner-card">
-          <a href="#" target="_blank" title="Sebrae">
-            <img src="assets/sponsors/logo_sebrae.png" alt="Logo SEBRAE" class="img-fluid">
+          <a href="#" target="_blank" title="SASI">
+            <img src="assets/sponsors/sasi_organizacao.png" alt="Logo SASI" class="img-fluid">
           </a>
         </div>
       </div>
@@ -18,7 +18,7 @@
             <div class="col-6 col-md-4 col-lg-3">
         <div class="partner-card">
           <a href="#" target="_blank" title="Ufac">
-            <img src="assets/sponsors/logo_ufac.png" alt="Logo Ufac" class="img-fluid">
+            <img src="assets/sponsors/ufac.png" alt="Logo Ufac" class="img-fluid">
           </a>
         </div>
       </div>
@@ -31,74 +31,22 @@
 
     <div class="text-center mb-5">
       <h2 class="section-title">Apoio e Parceria</h2>
-      <p class="section-subtitle">O VI CIPEL é realizado graças ao apoio fundamental destas instituições.</p>
+      <p class="section-subtitle">O SASI 2026 é realizado graças ao apoio fundamental destas instituições.</p>
     </div>
 
     <div class="row justify-content-center align-items-center g-4">
-
-      <div class="col-6 col-md-4 col-lg-3">
+  
+      <div class="col-6 col-md-4 col-lg-3" *ngFor="let patrocinador of patrocinadores">
         <div class="partner-card">
-          <a href="#" target="_blank" title="Embrapa">
-            <img src="assets/sponsors/ufac_leite.jpg" alt="Logo Ufac Leite" class="img-fluid">
+          <a href="#" target="_blank" [title]="patrocinador.name">
+            <img 
+              [src]="'assets/sponsors/' + patrocinador.logo" 
+              [alt]="'Logo ' + patrocinador.name" 
+              class="img-fluid"
+            >
           </a>
         </div>
       </div>
-
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="partner-card">
-          <a href="#" target="_blank" title="Embrapa">
-            <img src="assets/sponsors/logo_embrapa.png" alt="Logo Embrapa" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="partner-card">
-          <a href="#" target="_blank" title="Seagro">
-            <img src="assets/sponsors/logo_seagro.png" alt="Logo Seagro" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="partner-card">
-          <a href="#" target="_blank" title="Seagri">
-            <img src="assets/sponsors/logo_seagri.png" alt="Logo Seagri" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="partner-card">
-          <a href="#" target="_blank" title="Fórum de Desenvolvimento">
-            <img src="assets/sponsors/logo_forum.png" alt="Logo Fórum de Desenvolvimento" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="partner-card">
-          <a href="#" target="_blank" title="SENAR/FIEAC">
-            <img src="assets/sponsors/logo_senar.png" alt="Logo SENAR/FIEAC" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <!-- <div class="col-6 col-md-4 col-lg-3">
-        <div class="partner-card">
-          <a href="#" target="_blank" title="SEBRAE">
-            <img src="assets/sponsors/logo_sebrae.png" alt="Logo SEBRAE" class="img-fluid">
-          </a>
-        </div>
-      </div> -->
-
-      <!-- <div class="col-6 col-md-4 col-lg-3">
-        <div class="partner-card">
-          <a href="#" target="_blank" title="UFAC">
-            <img src="assets/sponsors/logo_ufac.png" alt="Logo UFAC" class="img-fluid">
-          </a>
-        </div>
-      </div> -->
 
     </div>
   </div>
