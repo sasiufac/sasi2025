@@ -25,224 +25,719 @@ interface DiaEventoConfig {
 // --- Banco de Dados de Palestrantes (Configuração) ---
 // Chave = ID único (facilita a associação na agenda)
 const PALESTRANTES_DB: Record<string, Palestrante> = {
-  'pantoja': {
-    id: 'pantoja',
-    name: "Prof. Dr. José Pantoja",
-    enterprise: "FMVZ UNESP-Botucatu",
-    photo: "assets/speakers/pantoja.jpeg",
+  'algorithms_school': {
+    id: 'algorithms_school',
+    name: "Algorithms School",
+    enterprise: "Algorithms School",
+    photo: "assets/speakers/algorithms_school.png",
   },
-  'jamilly': {
-    id: 'jamilly',
-    name: "Dra. Jamilly Wesgueber",
-    enterprise: "CEO JW Consultoria",
-    photo: "assets/speakers/jamilly.jpg",
+  'altemir': {
+    id: 'altemir',
+    name: "Altemir da Silva Braga",
+    enterprise: "UFAC",
+    photo: "assets/speakers/altemir.jpeg",
   },
-  'kolowyskys': {
-    id: 'kolowyskys',
-    name: "Kolowyskys Dantas",
-    enterprise: "Presidente da Assoc. Brasileira de Buiatria",
-    photo: "assets/speakers/kolo.jpg",
+  'aws': {
+    id: 'aws',
+    name: "Amazon Web Services",
+    enterprise: "Amazon",
+    photo: "assets/speakers/aws.png",
   },
-  'nivaldo': {
-    id: 'nivaldo',
-    name: "Nivaldo Michetti",
-    enterprise: "Produtor rural",
-    photo: "assets/speakers/nivaldo.jpg"
+  'ana_pavic': {
+    id: 'ana_pavic',
+    name: "Ana Beatriz Alvarez Mamani",
+    enterprise: "PAVIC",
+    photo: "assets/speakers/ana_pavic.jpeg",
   },
-  'ernesto': {
-    id: 'ernesto',
-    name: "Med. Vet. Ernesto Coser",
-    enterprise: "Gerente de Produtos da Datamars Trutest",
-    photo: "assets/speakers/ernesto2.jpg"
+  'antonio_aneurao': {
+    id: 'antonio_aneurao',
+    name: "Antonio Amauri Anerão Junior",
+    enterprise: "Ministério Público do Estado do Acre",
+    photo: "assets/speakers/antonio_aneurao.jpg",
   },
-  'andre': {
-    id: 'andre',
-    name: "André Navarro",
-    enterprise: "Gerente Distrital na Alta Genetics",
-    photo: "assets/speakers/andre.jpg"
+  'bruna': {
+    id: 'bruna',
+    name: "Bruna Soares Silva",
+    enterprise: "UFAC",
+    photo: "assets/speakers/bruna.jpeg",
   },
-  'felipe': {
-    id: 'felipe',
-    name: "Felipe Moura",
-    enterprise: "Pastus Agrotecnologia",
-    photo: "assets/speakers/felipe.jpg"
+  'bruno_mestanza': {
+    id: 'bruno_mestanza',
+    name: "Bruno Monteiro Mestanza",
+    enterprise: "Rocketseat",
+    photo: "assets/speakers/bruno_mestanza.jpeg",
   },
-  'jailson': {
-    id: 'jailson',
-    name: "Jaílson Barbosa",
-    enterprise: "Analista SEBRAE-AC",
-    photo: "assets/speakers/jailson.jpg"
+  'carlos_junior': {
+    id: 'carlos_junior',
+    name: "Carlos Alberto de Jesus Junior",
+    enterprise: "RNP",
+    photo: "assets/speakers/carlos_junior.gif",
   },
-  'vadick': {
-    id: 'vadick',
-    name: "Prof. Vadick Fernandez Romero",
-    enterprise: "Universidad Nacional Amazonica de Madre de Dios – UNAMAD - Peru",
-    photo: "assets/speakers/vadick.jpg"
+  'christopher': {
+    id: 'christopher',
+    name: "Christopher Alexander Ochoa Villanueva",
+    enterprise: "PAVIC",
+    photo: "assets/speakers/christopher.png",
   },
-  'juan': {
-    id: 'juan',
-    name: "Prof. Juan Tomás Bejarano Alvaréz",
-    enterprise: "Universidad Nacional Amazonica de Madre de Dios – UNAMAD - Peru",
-    photo: "assets/speakers/juan.jpg"
+  'clecio': {
+    id: 'clecio',
+    name: "Clécio Elias Silva e Silva",
+    enterprise: "PAVIC",
+    photo: "assets/speakers/CLECIO.jpeg",
   },
-  'maria': {
-    id: 'maria',
-    name: "Sra. Maria do Carmo",
-    enterprise: "Produtora rural",
-    photo: "assets/speakers/maria2.jpg"
+  'douglas': {
+    id: 'douglas',
+    name: "Douglas Moura Araújo",
+    enterprise: "UFAC - Web Academy",
+    photo: "assets/speakers/douglas.jpeg",
   },
-  'jean': {
-    id: 'jean',
-    name: "Med. Vet. Jean Paulo Gotelip",
-    enterprise: "Norte Rebanho",
-    photo: "assets/speakers/jean.jpg"
+  'elane_almeida': {
+    id: 'elane_almeida',
+    name: "Elane Cristine Almeida da Silva",
+    enterprise: "",
+    photo: "assets/speakers/elane_almeida.jpeg",
   },
-  'mauricio': {
-    id: 'mauricio',
-    name: "Sr. Maurício Gomes",
-    enterprise: "Produtor rural",
-    photo: "assets/speakers/mauricio.jpg"
+  'franceline': {
+    id: 'franceline',
+    name: "Franceline Amorim dos Santos",
+    enterprise: "IEEE",
+    photo: "assets/speakers/francilene.jpg",
   },
-  'andreza': {
-    id: 'andreza',
-    name: "Sra. Andreza Scherlosk",
-    enterprise: "Produtora rural",
-    photo: "assets/speakers/andrezza.jpg"
+  'francisco': {
+    id: 'francisco',
+    name: "Francisco da Silva Passos",
+    enterprise: "",
+    photo: "assets/speakers/francisco.jpg",
   },
-  'rodrigo': {
-    id: 'rodrigo',
-    name: "Sr. Rodrigo Novaes",
-    enterprise: "Produtor rural",
-    photo: "assets/speakers/rodrigo.jpg"
+  'gabriel_scanferla': {
+    id: 'gabriel_scanferla',
+    name: "Gabriel Garcia Scanferla",
+    enterprise: "Motorola",
+    photo: "assets/speakers/gabriel_scanferla.jpg",
   },
-  'claudia': {
-    id: 'claudia',
-    name: "Claudia Stehling",
-    enterprise: "Analista Técnica Sebrae Nacional",
-    photo: undefined // Adicionei undefined para manter a consistência se não houver foto
+  'gilberto_lobo': {
+    id: 'gilberto_lobo',
+    name: "Gilberto Mendes da Silveira Lobo",
+    enterprise: "",
+    photo: "assets/speakers/gilberto_lobo.jpeg",
   },
-  'guilherme': {
-    id: 'guilherme',
-    name: "Zootec. Guilherme Mossa", 
-    enterprise: "CNA",
-    photo: undefined
-  }
+  'gustavo_ferreti': {
+    id: 'gustavo_ferreti',
+    name: "Gustavo de Souza Ferreti",
+    enterprise: "PAVIC",
+    photo: "assets/speakers/gustavo_ferreti.gif",
+  },
+  'gustavo': {
+    id: 'gustavo',
+    name: "Gustavo Gonçalves Cardial",
+    enterprise: "IFAC",
+    photo: "assets/speakers/gustavo.jpg",
+  },
+  'hanrry': {
+    id: 'hanrry',
+    name: "Hanrry Luis Malaquias e Silva",
+    enterprise: "",
+    photo: "assets/speakers/hanrry.jpg",
+  },
+  'joceli': {
+    id: 'joceli',
+    name: "Joceli Franco da Anunciação",
+    enterprise: "UFAC - Web Academy",
+    photo: "assets/speakers/joceli.jpg",
+  },
+  'julio': {
+    id: 'julio',
+    name: "Julio Sousa Martins",
+    enterprise: "PAVIC",
+    photo: "assets/speakers/julio.png",
+  },
+  'laura': {
+    id: 'laura',
+    name: "Laura Costa Sarkis",
+    enterprise: "UFAC",
+    photo: "assets/speakers/laura.png",
+  },
+  'lorena': {
+    id: 'lorena',
+    name: "Lorena Yanet Tomaya",
+    enterprise: "UFAC",
+    photo: "assets/speakers/lorena.jpeg",
+  },
+  'lucas_hidelbrando': {
+    id: 'lucas_hidelbrando',
+    name: "Lucas Hidelbrando Costa Carvalho",
+    enterprise: "PAVIC",
+    photo: "assets/speakers/lucas_hidelbrando.jpeg",
+  },
+  'lucas': {
+    id: 'lucas',
+    name: "Lucas Lima Rodrigues",
+    enterprise: "UFAC",
+    photo: "assets/speakers/lucas.png",
+  },
+  'luis_antonio': {
+    id: 'luis_antonio',
+    name: "Luís Antônio Santiago",
+    enterprise: "TECHBIZ",
+    photo: "assets/speakers/luis_antonio.jpg",
+  },
+  'clara': {
+    id: 'clara',
+    name: "Maria Clara de Souza Barroso",
+    enterprise: "UFAC",
+    photo: "assets/speakers/clara.jpeg",
+  },
+  'mateus': {
+    id: 'mateus',
+    name: "Mateus de Souza Lopes",
+    enterprise: "UFAC - Web Academy",
+    photo: "assets/speakers/mateus.jpeg",
+  },
+  'mayara': {
+    id: 'mayara',
+    name: "Mayara Silva de Sousa",
+    enterprise: "UFAC",
+    photo: "assets/speakers/mayara.jpeg",
+  },
+  'mirelle': {
+    id: 'mirelle',
+    name: "Mirelle Campos Góis",
+    enterprise: "UFAC",
+    photo: "assets/speakers/mirelle.jpeg",
+  },
+  'nasserala': {
+    id: 'nasserala',
+    name: "Prof. André Luiz Nasserala Pires",
+    enterprise: "UFAC",
+    photo: "assets/speakers/nasserala.jpeg",
+  },
+  'cleuton': {
+    id: 'cleuton',
+    name: "Prof. Cleuton de Menezes Almeida",
+    enterprise: "UFAC",
+    photo: "assets/speakers/cleuton.jpeg",
+  },
+  'prof_rodrigo': {
+    id: 'prof_rodrigo',
+    name: "Prof. Rodrigo Silva Souza",
+    enterprise: "IFAC",
+    photo: "assets/speakers/prof_rodrigo.jpeg",
+  },
+  'rafael': {
+    id: 'rafael',
+    name: "Rafael Alves Braga",
+    enterprise: "UFAC - Web Academy",
+    photo: "assets/speakers/rafael.png",
+  },
+  'salomao': {
+    id: 'salomao',
+    name: "Salomão Machado Mafalda",
+    enterprise: "",
+    photo: "assets/speakers/salomao.jpeg",
+  },
+  'santiago': {
+    id: 'santiago',
+    name: "Santiago Rocha",
+    enterprise: "",
+    photo: "assets/speakers/santiago.jpg",
+  },
+  'thalisson': {
+    id: 'thalisson',
+    name: "Thalisson Henrique Frota",
+    enterprise: "",
+    photo: "assets/speakers/thalisson.jpg",
+  },
+  'thauanne': {
+    id: 'thauanne',
+    name: "Thauanne da Silva Paixão",
+    enterprise: "PAVIC",
+    photo: "assets/speakers/thauanne.jpeg",
+  },
+  'wiliam': {
+    id: 'wiliam',
+    name: "Wiliam Pedrosa Maia",
+    enterprise: "",
+    photo: "assets/speakers/wiliam.jpg",
+  },
 };
 
 // --- Configuração da Agenda ---
 // Aqui você apenas referencia os IDs definidos acima
 const AGENDA_DATA: DiaEventoConfig[] = [
   {
-    date: "30/10/2025",
+    date: "22/02/2026",
+    day: "Domingo",
+    sessions: [
+      {
+        startTime: "14:00 - 18:00",
+        title: "1º Campeonato de Robôs Fura-Balão – Sistemas de Informação UFAC",
+        speakerIds: [
+          "nasserala"
+        ],
+        type: "workshop",
+        description: "@Equipe D | 4 horas / Via Verde Shopping (30 Pessoas)"
+      }
+    ]
+  },
+  {
+    date: "23/02/2026",
+    day: "Segunda-feira",
+    sessions: [
+      {
+        startTime: "7:30 - 8:00",
+        title: "Credenciamento",
+        speakerIds: [],
+        type: "abertura",
+        description: "@Equipe A | 30 min / Teatro Universitário (800 Pessoas)"
+      },
+      {
+        startTime: "8:00 - 8:10",
+        title: "Abertura",
+        speakerIds: [
+          "cleuton"
+        ],
+        type: "abertura",
+        description: "10 min / Teatro Universitário"
+      },
+      {
+        startTime: "8:10 - 9:40",
+        title: "Inovação nas Universidades: Portas Abertas para o Futuro Mercado de Trabalho",
+        speakerIds: [
+          "francisco",
+          "gilberto_lobo"
+        ],
+        type: "palestra",
+        description: "1:30 min / Teatro Universitário"
+      },
+      {
+        startTime: "9:40 - 10:00",
+        title: "Coffe Break",
+        speakerIds: [],
+        type: "pausa",
+        description: "| 20 min"
+      },
+      {
+        startTime: "10:00 - 11:30",
+        title: "Uso Assertivo de LLMs: Valor Real em Meio ao Barulho",
+        speakerIds: [
+          "gabriel_scanferla"
+        ],
+        type: "palestra",
+        description: "1:30 min / Teatro Universitário"
+      },
+      {
+        startTime: "11:30 - 11:45",
+        title: "Intervalo",
+        speakerIds: [],
+        type: "pausa",
+        description: "| 15 min"
+      },
+      {
+        startTime: "11:45 - 13:15",
+        title: "Tecnologias em IA Aplicadas à Sistemas de Informação",
+        speakerIds: [
+          "clecio",
+          "ana_pavic",
+          "thauanne"
+        ],
+        type: "palestra",
+        description: "1:30 min / Teatro Universitário"
+      },
+      {
+        startTime: "13:15 - 14:00",
+        title: "Intervalo/ Almoço",
+        speakerIds: [],
+        type: "pausa",
+        description: "45 min / RU"
+      },
+      {
+        startTime: "7:00 - 14:00",
+        title: "Caminhão do Hospital do Câncer; Lojinhas e exposições no pátio do Centro de Convenções; Palco (Atrações)       7 horas",
+        speakerIds: [],
+        type: "palestra",
+        description: null
+      },
+      {
+        startTime: "14:00 - 16:00",
+        title: "Introdução à Engenharia de Requisitos",
+        speakerIds: [
+          "douglas",
+        ],
+        type: "palestra",
+        description: "@Equipe E | 2 horas / WebAcademy Lab 2 (30 Pessoas)"
+      },
+      {
+        startTime: "16:00 - 18:00",
+        title: "Acessibilidade Web e Nurodivergentes",
+        speakerIds: [
+          "joceli"
+        ],
+        type: "palestra",
+        description: "@Equipe E | 2 horas / WebAcademy Lab 2 (30 Pessoas)"
+      },
+      {
+        startTime: "13:45 - 15:45",
+        title: "Crie sua Primeira Aplicação: Introdução Prática ao Mundo Java",
+        speakerIds: [
+          "mateus",
+          "rafael"
+        ],
+        type: "workshop",
+        description: "@Equipe I | 2 horas / WebAcademy Lab 1 (30 Pessoas)"
+      },
+      {
+        startTime: "16:00 - 18:00",
+        title: "2° Torneio de Programação - SASI 2026",
+        speakerIds: [
+          "algorithms_school"
+        ],
+        type: "workshop",
+        description: "@Equipe I | 2 horas / WebAcademy Lab 1 (30 Pessoas)"
+      }
+    ]
+  },
+  {
+    date: "24/02/2026",
+    day: "Terça-feira",
+    sessions: [
+      {
+        startTime: "7:30 - 8:00",
+        title: "Credenciamento",
+        speakerIds: [],
+        type: "abertura",
+        description: "@Equipe A | 30 min / Teatro Universitário (800 Pessoas)"
+      },
+      {
+        startTime: "8:00 - 9:40",
+        title: "Inteligência Artificial no Poder Judiciário: Transformação Digital na Justiça do Acre",
+        speakerIds: [
+          "salomao"
+        ],
+        type: "palestra",
+        description: "1:40 min / Teatro Universitário"
+      },
+      {
+        startTime: "9:40 - 10:00",
+        title: "Coffe Break",
+        speakerIds: [],
+        type: "pausa",
+        description: "| 20 min"
+      },
+      {
+        startTime: "10:00 - 11:30",
+        title: "Design e Desenvolvimento Frontend com IA",
+        speakerIds: [
+          "bruno_mestanza"
+        ],
+        type: "palestra",
+        description: "1:30 min / Teatro Universitário"
+      },
+      {
+        startTime: "11:30 - 11:45",
+        title: "Intervalo",
+        speakerIds: [],
+        type: "pausa",
+        description: "| 15 min"
+      },
+      {
+        startTime: "11:45 - 13:15",
+        title: "IA combina com a Psicologia ?",
+        speakerIds: [
+          "hanrry"
+        ],
+        type: "palestra",
+        description: "1:30 min / Teatro Universitário"
+      },
+      {
+        startTime: "14:00 - 18:00",
+        title: "Introdução à escrita de textos científicos com Latex",
+        speakerIds: [
+          "lucas"
+        ],
+        type: "palestra",
+        description: "@Equipe M | 4 horas / Lab 2 de SI (30 Pessoas)"
+      },
+      {
+        startTime: "14:00 - 18:00",
+        title: "Agentes de IA com Python",
+        speakerIds: [
+          "antonio_aneurao"
+        ],
+        type: "palestra",
+        description: "@Equipe N | 4 horas / Nave Tech Lab1 (30 Pessoas)"
+      },
+      {
+        startTime: "14:00 - 18:00",
+        title: "Da Estatística à Inteligência Artificial: Conceitos e Aplicações com R",
+        speakerIds: [
+          "altemir",
+          "lorena"
+        ],
+        type: "palestra",
+        description: "@Equipe L | 4 horas / Lab Estatística (30 Pessoas)"
+      },
+      {
+        startTime: "14:00 - 18:00",
+        title: "1° Torneio de Xadrex - SASI 2026",
+        speakerIds: [],
+        type: "workshop",
+        description: "@Equipe H | 4 horas / SebraeLab - Centro de Convivência (60 Pessoas)"
+      }
+    ]
+  },
+  {
+    date: "25/02/2026",
+    day: "Quarta-feira",
+    sessions: [
+      {
+        startTime: "7:30 - 8:00",
+        title: "Credenciamento",
+        speakerIds: [],
+        type: "abertura",
+        description: "@Equipe A | 30 min / Teatro Universitário (800 Pessoas)"
+      },
+      {
+        startTime: "8:00 - 9:40",
+        title: "A Influência da FEM no Incentivo à Cultura Digital e Geek",
+        speakerIds: [
+          "elane_almeida"
+        ],
+        type: "palestra",
+        description: "1:40 min / Teatro Universitário"
+      },
+      {
+        startTime: "9:40 - 10:00",
+        title: "Coffe Break",
+        speakerIds: [],
+        type: "pausa",
+        description: "| 20 min"
+      },
+      {
+        startTime: "10:00 - 11:30",
+        title: "Segurança da Informação: um panorama geral",
+        speakerIds: [
+          "gustavo"
+        ],
+        type: "palestra",
+        description: "@ | 1:30 min / Teatro Universitário"
+      },
+      {
+        startTime: "11:30 - 11:45",
+        title: "Intervalo",
+        speakerIds: [],
+        type: "pausa",
+        description: "| 15 min"
+      },
+      {
+        startTime: "11:45 - 13:15",
+        title: "rnp",
+        speakerIds: [],
+        type: "palestra",
+        description: "| 1:30 min / Teatro Universitário"
+      },
+      {
+        startTime: "14:00 - 16:00",
+        title: "Como a Cibersegurança afeta o meu dia a dia – Especial Mulheres",
+        speakerIds: [],
+        type: "palestra",
+        description: "@Equipe C | 2 horas / Online (60 Pessoas)"
+      },
+      {
+        startTime: "13:20 - 17:20",
+        title: "Robótica e Indústria 4.0: conceitos e aplicações",
+        speakerIds: [
+          "wiliam"
+        ],
+        type: "palestra",
+        description: "@Equipe D | 4 horas / Lab 2 de SI (30 Pessoas)"
+      },
+      {
+        startTime: "14:00 - 18:00",
+        title: "Fundamentos de Segurança Web: Entendendo e Combatendo Ameaças Críticas",
+        speakerIds: [
+          "santiago"
+        ],
+        type: "palestra",
+        description: "@Equipe Z | 4 horas / Lab 1 de SI (30 Pessoas)"
+      },
+      {
+        startTime: "14:00 - 18:00",
+        title: "1° Desafio Capture The Flag (CTF) - SASI 2026",
+        speakerIds: [],
+        type: "workshop",
+        description: "@Equipe F | 4 horas / WebAcademy Lab 1 (25 Pessoas)"
+      }
+    ]
+  },
+  {
+    date: "26/02/2026",
     day: "Quinta-feira",
     sessions: [
-      { startTime: "07:00 - 08:45", title: "Café da manhã e credenciamento", type: "abertura" },
-      { startTime: "07:30 - 08:30", title: "Apresentação de resumos", type: "abertura" },
-      { startTime: "08:30 - 09:30", title: "Abertura", type: "abertura" },
-      { 
-        startTime: "09:30 - 10:00", 
-        title: "Educação Financeira e Sucessão Familiar", 
-        speakerIds: ['jailson'], // Associação direta pelo ID
-        type: "palestra" 
+      {
+        startTime: "7:30 - 8:00",
+        title: "Credenciamento",
+        speakerIds: [],
+        type: "abertura",
+        description: "@Equipe A | 30 min / Teatro Universitário (800 Pessoas)"
       },
-      { 
-        startTime: "10:00 - 10:30", 
-        title: "Como impulsionar os pequenos negócios a partir da agregação de valor", 
-        speakerIds: ['claudia'],
-        type: "palestra" 
+      {
+        startTime: "8:00 - 9:40",
+        title: "Professor sebrae",
+        speakerIds: [],
+        type: "palestra",
+        description: "1:40 min / Teatro Universitário"
       },
-      { 
-        startTime: "10:30 - 11:20", 
-        title: "Quais as vantagens e os desafios da utilização da transferência de embriões em gado leiteiro?", 
-        speakerIds: ['jean'],
-        type: "palestra" 
+      {
+        startTime: "9:40 - 10:00",
+        title: "Coffe Break",
+        speakerIds: [],
+        type: "pausa",
+        description: "| 20 min"
       },
-      { 
-        startTime: "11:20 - 12:10", 
-        title: "PNCEBT - situação atual e desafios para evolução do status sanitário brasileiro", 
-        speakerIds: ['guilherme'],
-        type: "palestra" 
+      {
+        startTime: "10:00 - 11:30",
+        title: "Criando Soluções com Tecnologia: Desenvolvimento de Aplicativo Mobile de Agenda de Estudos com MIT App Inventor",
+        speakerIds: [
+          "laura",
+          "mayara",
+          "mirelle",
+          "bruna",
+          "clara"
+        ],
+        type: "palestra",
+        description: "1:30 min / Teatro Universitário"
       },
-      { startTime: "12:10 - 14:00", title: "Almoço", type: "pausa" },
-      { 
-        startTime: "14:00 - 15:00", 
-        title: "Uso da cerca elétrica como ferramenta para otimizar a eficiência do pastejo", 
-        speakerIds: ['ernesto'],
-        type: "palestra" 
+      {
+        startTime: "11:30 - 11:45",
+        title: "CAFe: Benefícios para estudantes, professores e pesquisadores",
+        speakerIds: [
+          "carlos_junior"
+        ],
+        type: "palestra",
+        description: "(Apresentação) | 15 min / Teatro Universitário"
       },
-      { 
-        startTime: "15:00 - 16:10", 
-        title: "Controle biológico de carrapatos com fungos", 
-        speakerIds: ['vadick'],
-        type: "workshop" 
+      {
+        startTime: "11:45 - 13:15",
+        title: "Apresentação Unidade Móvel de Educação do Instituto de Ensino e Pesquisa",
+        speakerIds: [],
+        type: "palestra",
+        description: "1:30 min / Teatro Universitário"
       },
-      { startTime: "16:10 - 16:30", title: "Milk Break", type: "pausa" },
-      { 
-        startTime: "16:30 - 17:30", 
-        title: "Protocolos IATF na Pecuária Leiteira: utilização e benefícios", 
-        speakerIds: ['juan'],
-        type: "palestra" 
+      {
+        startTime: "14:00 - 16:00",
+        title: "Testes automatizados no frontend: muito além de telas",
+        speakerIds: [
+          "luis_antonio"
+        ],
+        type: "palestra",
+        description: "@Equipe K | 4 horas / Nave Tech Lab1 (30 Pessoas)"
       },
+      {
+        startTime: "14:00 - 18:00",
+        title: "Introdução ao Processamento de Imagem e Visão Computacional",
+        speakerIds: [
+          "clecio",
+          "gustavo_ferreti",
+          "julio"
+        ],
+        type: "palestra",
+        description: "@Equipe X | 4 horas / Lab 2 de SI (30 Pessoas)"
+      },
+      {
+        startTime: "14:00 - 18:00",
+        title: "Desenvolvimento de Software assistido por Inteligência Artificial Generativa: Teoria, Evidências e Prática.",
+        speakerIds: [
+          "thalisson"
+        ],
+        type: "palestra",
+        description: "@Equipe Y | 4 horas / Lab 1 de SI (30 Pessoas)"
+      },
+      {
+        startTime: "14:00 - 16:00",
+        title: "1ª Corrida DeepRacer - SASI 2026",
+        speakerIds: [
+          "aws"
+        ],
+        type: "palestra",
+        description: "@Equipe G | 2 horas / WebAcademy Lab 1 (25 Pessoas)"
+      }
     ]
   },
   {
-    date: "31/10/2025",
+    date: "27/02/2026",
     day: "Sexta-feira",
     sessions: [
-      { startTime: "07:30 - 08:30", title: "Café da manhã e Apresentação de Resumos", type: "abertura" },
-      { 
-        startTime: "08:00 - 09:30", 
-        title: "A Diferença entre Ver e Enxergar Seu Pasto: Estratégias de manejo", 
-        speakerIds: ['felipe'],
-        type: "palestra" 
+      {
+        startTime: "7:30 - 8:00",
+        title: "Credenciamento",
+        speakerIds: [],
+        type: "abertura",
+        description: "@Equipe A | 30 min / Teatro Universitário (800 Pessoas)"
       },
-      { 
-        startTime: "09:40 - 10:40", 
-        title: "Manejos primordiais na criação de bezerras", 
-        speakerIds: ['jamilly'],
-        type: "palestra" 
+      {
+        startTime: "8:00 - 8:10",
+        title: "Encerramento",
+        speakerIds: [
+          "cleuton"
+        ],
+        type: "encerramento",
+        description: "10 min /"
       },
-      { 
-        startTime: "10:50 - 11:50", 
-        title: "Atuação do Buiatra em Medicina Veterinária de Produção", 
-        speakerIds: ['kolowyskys'],
-        type: "palestra" 
+      {
+        startTime: "8:10 - 9:40",
+        title: "IEEE e WIE",
+        speakerIds: [
+          "franceline"
+        ],
+        type: "palestra",
+        description: "1:30 min / Teatro Universitário"
       },
-      { startTime: "12:00 - 14:00", title: "Almoço", type: "pausa" },
-      { 
-        startTime: "14:00 - 14:50", 
-        title: "Indicadores Reprodutivos e a importância econômica em fazendas leiteiras", 
-        speakerIds: ['andre'],
-        type: "palestra" 
+      {
+        startTime: "9:40 - 10:00",
+        title: "Coffe Break",
+        speakerIds: [],
+        type: "pausa",
+        description: "| 20 min"
       },
-      { 
-        startTime: "15:00 - 16:00", 
-        title: "Experiências do campo – Produtores de leite do Acre", 
-        // Array de IDs torna muito fácil adicionar múltiplos palestrantes
-        speakerIds: ['maria', 'mauricio', 'andreza', 'rodrigo'],
-        type: "palestra" 
+      {
+        startTime: "10:00 - 11:30",
+        title: "EM ABERTO",
+        speakerIds: [],
+        type: "palestra",
+        description: "| 1:30 min / Teatro Universitário"
       },
-      { startTime: "16:00 - 16:20", title: "Milk Break", type: "pausa" },
-      { 
-        startTime: "16:20 - 17:00", 
-        title: "Mudando de Vida com a Produção de Leite", 
-        speakerIds: ['nivaldo'],
-        type: "palestra" 
+      {
+        startTime: "11:30 - 11:45",
+        title: "Intervalo",
+        speakerIds: [],
+        type: "pausa",
+        description: "| 15 min"
       },
-      { startTime: "17:30 - 18:00", title: "Premiação dos Melhores Resumos", type: "encerramento" }
-    ]
-  },
-  {
-    date: "01/11/2025",
-    day: "Sábado",
-    sessions: [
-      { 
-        startTime: "08:00 - 12:00", 
-        title: "Dia de Campo - Rancho São Bento (Rio Branco)", 
-        speakerIds: ['pantoja'],
-        type: "abertura", 
-        description: "Estações: Manejo de Pastagens; Reprodução; Qualidade de leite" 
+      {
+        startTime: "11:45 - 13:15",
+        title: "I Amostra de Estágios Obrigatórios do Curso de Sistemas de Informação",
+        speakerIds: [
+          "laura"
+        ],
+        type: "workshop",
+        description: "1:30 min / Teatro Universitário"
       },
+      {
+        startTime: "14:00 - 18:00",
+        title: "IA no Design Digital: o que muda no dia a dia do designer",
+        speakerIds: [
+          "prof_rodrigo"
+        ],
+        type: "palestra",
+        description: "@Equipe O | 4 horas / Lab 1 de SI (30 Pessoas)"
+      },
+      {
+        startTime: "14:00 - 18:00",
+        title: "1ª Hackathon - SASI 2026",
+        speakerIds: [],
+        type: "workshop",
+        description: "@Equipe B | 4 horas / Nave Tech Lab1 (30 Pessoas)"
+      }
     ]
   }
 ];
@@ -258,7 +753,6 @@ export class Schedule {
   activeTab = "dia1";
   
   palestrantes: Palestrante[] = Object.values(PALESTRANTES_DB);
-
   programacao = AGENDA_DATA.map(dia => ({
     ...dia,
     sessions: dia.sessions.map(sessao => ({

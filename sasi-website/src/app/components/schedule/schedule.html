@@ -17,7 +17,7 @@
               (click)="setActiveTab('dia1')"
               type="button">
               <i class="fas fa-calendar-day me-2"></i>
-              30/10 - Primeiro Dia
+              22/02 - Primeiro Dia
             </button>
           </li>
           <li class="nav-item" role="presentation">
@@ -27,7 +27,7 @@
               (click)="setActiveTab('dia2')"
               type="button">
               <i class="fas fa-calendar-day me-2"></i>
-              31/10 - Segundo Dia
+              23/02 - Segundo Dia
             </button>
           </li>
           <li class="nav-item" role="presentation">
@@ -37,7 +37,37 @@
               (click)="setActiveTab('dia3')"
               type="button">
               <i class="fas fa-calendar-day me-2"></i>
-              01/11 - Terceiro Dia
+              24/02 - Terceiro Dia
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              [class.active]="activeTab === 'dia4'"
+              (click)="setActiveTab('dia4')"
+              type="button">
+              <i class="fas fa-calendar-day me-2"></i>
+              25/02 - Quarto Dia
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              [class.active]="activeTab === 'dia5'"
+              (click)="setActiveTab('dia5')"
+              type="button">
+              <i class="fas fa-calendar-day me-2"></i>
+              26/02 - Quinto dia
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              [class.active]="activeTab === 'dia6'"
+              (click)="setActiveTab('dia6')"
+              type="button">
+              <i class="fas fa-calendar-day me-2"></i>
+              27/02 - Sexto Dia
             </button>
           </li>
         </ul>
@@ -146,6 +176,109 @@
           </div>
         </div>
       </div>
+
+<div
+        class="tab-pane fade"
+        [class.show]="activeTab === 'dia4'"
+        [class.active]="activeTab === 'dia4'"
+        *ngIf="activeTab === 'dia4'">
+        <div class="schedule-day">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="schedule-item"
+                   *ngFor="let sessao of programacao[3].sessions"
+                   [ngClass]="getTipoClass(sessao.type)">
+                <div class="row align-items-center">
+                  <div class="col-md-3">
+                    <div class="time-badge">
+                      <i class="fas fa-clock me-2"></i>
+                      {{ sessao.startTime }}
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <h5 class="session-title mb-1">{{ sessao.title }}</h5>
+                    <p class="session-speaker mb-1" *ngIf="sessao.speaker">
+                      <i class="fas fa-user me-2"></i>{{ sessao.speaker }}
+                    </p>
+                    <p class="session-description mb-0" *ngIf="sessao.description">
+                      {{ sessao.description }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="tab-pane fade"
+        [class.show]="activeTab === 'dia5'"
+        [class.active]="activeTab === 'dia5'"
+        *ngIf="activeTab === 'dia5'">
+        <div class="schedule-day">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="schedule-item"
+                   *ngFor="let sessao of programacao[4].sessions"
+                   [ngClass]="getTipoClass(sessao.type)">
+                <div class="row align-items-center">
+                  <div class="col-md-3">
+                    <div class="time-badge">
+                      <i class="fas fa-clock me-2"></i>
+                      {{ sessao.startTime }}
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <h5 class="session-title mb-1">{{ sessao.title }}</h5>
+                    <p class="session-speaker mb-1" *ngIf="sessao.speaker">
+                      <i class="fas fa-user me-2"></i>{{ sessao.speaker }}
+                    </p>
+                    <p class="session-description mb-0" *ngIf="sessao.description">
+                      {{ sessao.description }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="tab-pane fade"
+        [class.show]="activeTab === 'dia6'"
+        [class.active]="activeTab === 'dia6'"
+        *ngIf="activeTab === 'dia6'">
+        <div class="schedule-day">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="schedule-item"
+                   *ngFor="let sessao of programacao[5].sessions"
+                   [ngClass]="getTipoClass(sessao.type)">
+                <div class="row align-items-center">
+                  <div class="col-md-3">
+                    <div class="time-badge">
+                      <i class="fas fa-clock me-2"></i>
+                      {{ sessao.startTime }}
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <h5 class="session-title mb-1">{{ sessao.title }}</h5>
+                    <p class="session-speaker mb-1" *ngIf="sessao.speaker">
+                      <i class="fas fa-user me-2"></i>{{ sessao.speaker }}
+                    </p>
+                    <p class="session-description mb-0" *ngIf="sessao.description">
+                      {{ sessao.description }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
