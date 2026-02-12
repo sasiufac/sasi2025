@@ -306,7 +306,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "nasserala"
         ],
         type: "workshop",
-        description: "@Equipe D | 4 horas / Via Verde Shopping (30 Pessoas)"
+        description: "4 horas / Via Verde Shopping (30 Pessoas)"
       }
     ]
   },
@@ -319,7 +319,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
         title: "Credenciamento",
         speakerIds: [],
         type: "abertura",
-        description: "@Equipe A | 30 min / Teatro Universitário (800 Pessoas)"
+        description: "30 min / Teatro Universitário (800 Pessoas)"
       },
       {
         startTime: "8:00 - 8:10",
@@ -389,7 +389,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "douglas",
         ],
         type: "palestra",
-        description: "@Equipe E | 2 horas / WebAcademy Lab 2 (30 Pessoas)"
+        description: "2 horas / WebAcademy Lab 2 (30 Pessoas)"
       },
       {
         startTime: "16:00 - 18:00",
@@ -398,7 +398,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "joceli"
         ],
         type: "palestra",
-        description: "@Equipe E | 2 horas / WebAcademy Lab 2 (30 Pessoas)"
+        description: "2 horas / WebAcademy Lab 2 (30 Pessoas)"
       },
       {
         startTime: "13:45 - 15:45",
@@ -408,16 +408,16 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "rafael"
         ],
         type: "workshop",
-        description: "@Equipe I | 2 horas / WebAcademy Lab 1 (30 Pessoas)"
+        description: "2 horas / WebAcademy Lab 1 (30 Pessoas)"
       },
       {
         startTime: "16:00 - 18:00",
-        title: "2° Torneio de Programação - SASI 2026",
+        title: "2° Torneio de Programação - SASI 2025",
         speakerIds: [
           "algorithms_school"
         ],
         type: "workshop",
-        description: "@Equipe I | 2 horas / WebAcademy Lab 1 (30 Pessoas)"
+        description: "2 horas / WebAcademy Lab 1 (30 Pessoas)"
       }
     ]
   },
@@ -430,7 +430,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
         title: "Credenciamento",
         speakerIds: [],
         type: "abertura",
-        description: "@Equipe A | 30 min / Teatro Universitário (800 Pessoas)"
+        description: "30 min / Teatro Universitário (800 Pessoas)"
       },
       {
         startTime: "8:00 - 9:40",
@@ -480,7 +480,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "lucas"
         ],
         type: "palestra",
-        description: "@Equipe M | 4 horas / Lab 2 de SI (30 Pessoas)"
+        description: "4 horas / Lab 2 de SI (30 Pessoas)"
       },
       {
         startTime: "14:00 - 18:00",
@@ -489,7 +489,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "antonio_aneurao"
         ],
         type: "palestra",
-        description: "@Equipe N | 4 horas / Nave Tech Lab1 (30 Pessoas)"
+        description: "4 horas / Nave Tech Lab1 (30 Pessoas)"
       },
       {
         startTime: "14:00 - 18:00",
@@ -499,14 +499,14 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "lorena"
         ],
         type: "palestra",
-        description: "@Equipe L | 4 horas / Lab Estatística (30 Pessoas)"
+        description: "4 horas / Lab Estatística (30 Pessoas)"
       },
       {
         startTime: "14:00 - 18:00",
-        title: "1° Torneio de Xadrex - SASI 2026",
+        title: "1° Torneio de Xadrex - SASI 2025",
         speakerIds: ['xadrez'],
         type: "workshop",
-        description: "@Equipe H | 4 horas / SebraeLab - Centro de Convivência (60 Pessoas)"
+        description: "4 horas / SebraeLab - Centro de Convivência (60 Pessoas)"
       }
     ]
   },
@@ -519,7 +519,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
         title: "Credenciamento",
         speakerIds: [],
         type: "abertura",
-        description: "@Equipe A | 30 min / Teatro Universitário (800 Pessoas)"
+        description: "30 min / Teatro Universitário (800 Pessoas)"
       },
       {
         startTime: "8:00 - 9:40",
@@ -565,7 +565,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
         title: "Como a Cibersegurança afeta o meu dia a dia – Especial Mulheres",
         speakerIds: ['leo','rob','crist'],
         type: "palestra",
-        description: "@Equipe C | 2 horas / Online (60 Pessoas)"
+        description: "2 horas / Online (60 Pessoas)"
       },
       {
         startTime: "13:20 - 17:20",
@@ -574,7 +574,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "wiliam"
         ],
         type: "palestra",
-        description: "@Equipe D | 4 horas / Lab 2 de SI (30 Pessoas)"
+        description: "4 horas / Lab 2 de SI (30 Pessoas)"
       },
       {
         startTime: "14:00 - 18:00",
@@ -583,14 +583,14 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "santiago"
         ],
         type: "palestra",
-        description: "@Equipe Z | 4 horas / Lab 1 de SI (30 Pessoas)"
+        description: "4 horas / Lab 1 de SI (30 Pessoas)"
       },
       {
         startTime: "14:00 - 18:00",
-        title: "1° Desafio Capture The Flag (CTF) - SASI 2026",
+        title: "1° Desafio Capture The Flag (CTF) - SASI 2025",
         speakerIds: ['rnp'],
         type: "workshop",
-        description: "@Equipe F | 4 horas / WebAcademy Lab 1 (25 Pessoas)"
+        description: "4 horas / WebAcademy Lab 1 (25 Pessoas)"
       }
     ]
   },
@@ -603,7 +603,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
         title: "Credenciamento",
         speakerIds: [],
         type: "abertura",
-        description: "@Equipe A | 30 min / Teatro Universitário (800 Pessoas)"
+        description: "30 min / Teatro Universitário (800 Pessoas)"
       },
       {
         startTime: "8:00 - 9:40",
@@ -639,7 +639,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "carlos_junior"
         ],
         type: "palestra",
-        description: "(Apresentação) | 15 min / Teatro Universitário"
+        description: "15 min / Teatro Universitário"
       },
       {
         startTime: "11:45 - 13:15",
@@ -655,7 +655,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "luis_antonio"
         ],
         type: "palestra",
-        description: "@Equipe K | 4 horas / Nave Tech Lab1 (30 Pessoas)"
+        description: "4 horas / Nave Tech Lab1 (30 Pessoas)"
       },
       {
         startTime: "14:00 - 18:00",
@@ -668,7 +668,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "lucas_hidelbrando"
         ],
         type: "palestra",
-        description: "@Equipe X | 4 horas / Lab 2 de SI (30 Pessoas)"
+        description: "4 horas / Lab 2 de SI (30 Pessoas)"
       },
       {
         startTime: "14:00 - 18:00",
@@ -677,16 +677,16 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "thalisson"
         ],
         type: "palestra",
-        description: "@Equipe Y | 4 horas / Lab 1 de SI (30 Pessoas)"
+        description: "4 horas / Lab 1 de SI (30 Pessoas)"
       },
       {
         startTime: "14:00 - 16:00",
-        title: "1ª Corrida DeepRacer - SASI 2026",
+        title: "1ª Corrida AWS Deep Racer - SASI 2025",
         speakerIds: [
           "aws"
         ],
         type: "palestra",
-        description: "@Equipe G | 2 horas / WebAcademy Lab 1 (25 Pessoas)"
+        description: "2 horas / WebAcademy Lab 1 (25 Pessoas)"
       }
     ]
   },
@@ -699,7 +699,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
         title: "Credenciamento",
         speakerIds: [],
         type: "abertura",
-        description: "@Equipe A | 30 min / Teatro Universitário (800 Pessoas)"
+        description: "30 min / Teatro Universitário (800 Pessoas)"
       },
       {
         startTime: "8:00 - 8:10",
@@ -727,13 +727,6 @@ const AGENDA_DATA: DiaEventoConfig[] = [
         description: "| 20 min"
       },
       {
-        startTime: "10:00 - 11:30",
-        title: "EM ABERTO",
-        speakerIds: [],
-        type: "palestra",
-        description: "| 1:30 min / Teatro Universitário"
-      },
-      {
         startTime: "11:30 - 11:45",
         title: "Intervalo",
         speakerIds: [],
@@ -756,14 +749,14 @@ const AGENDA_DATA: DiaEventoConfig[] = [
           "prof_rodrigo"
         ],
         type: "palestra",
-        description: "@Equipe O | 4 horas / Lab 1 de SI (30 Pessoas)"
+        description: "4 horas / Lab 1 de SI (30 Pessoas)"
       },
       {
         startTime: "14:00 - 18:00",
-        title: "1ª Hackathon - SASI 2026",
+        title: "1ª Hackathon - SASI 2025",
         speakerIds: [],
         type: "workshop",
-        description: "@Equipe B | 4 horas / Nave Tech Lab1 (30 Pessoas)"
+        description: "4 horas / Nave Tech Lab1 (30 Pessoas)"
       }
     ]
   }

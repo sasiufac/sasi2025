@@ -11,8 +11,8 @@ export class Homepage {
   eventInfo = {
     title: "II SEMANA ACADÊMICA DE SISTEMAS DE INFORMAÇÃO",
     subtitle: "II SASI",
-    date: "23 de Fevereiro a 27 de Fevereiro de 2026",
-    location: "Acre, Brasil",
+    date: "22 de Fevereiro a 27 de Fevereiro de 2026",
+    location: "UFAC - Acre, Brasil",
     description:
       "Conectando Inteligência, Segurança e Desenvolvimento.",
     highlights: [

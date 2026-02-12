@@ -107,15 +107,15 @@ $sasi-card-light: #fdfdfd;
   color: rgba(255, 255, 255, 0.5);
 
   a {
-    color: $sasi-purple; // Links de desenvolvedores em roxo
+    color: #b797f9; // Links de desenvolvedores em roxo
     font-weight: 600;
     text-decoration: none;
-    border-bottom: 1px dotted rgba($sasi-purple, 0.5);
+    border-bottom: 1px dotted rgba(#b797f9, 0.5);
     transition: all 0.3s ease;
 
     &:hover {
-      color: lighten($sasi-purple, 10%);
-      border-bottom-color: $sasi-purple;
+      color: lighten(#b797f9, 10%);
+      border-bottom-color: lighten(#b797f9, 10%);
     }
   }
 }
