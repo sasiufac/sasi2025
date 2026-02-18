@@ -80,7 +80,8 @@ const PALESTRANTES_DB: Record<string, Palestrante> = {
   'keneder': {
     id: "keneder",
     name: "Keneder Jesus Marino",
-    enterprise: ''
+    enterprise: null,
+    photo: "assets/speakers/keneder.png",
   },
   'rob': {
     id: "rob",
