@@ -343,7 +343,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
       },
       {
         startTime: "9:40 - 10:00",
-        title: "Coffe Break",
+        title: "Intervalo",
         speakerIds: [],
         type: "pausa",
         description: "| 20 min"
@@ -444,7 +444,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
       },
       {
         startTime: "9:40 - 10:00",
-        title: "Coffe Break",
+        title: "Intervalo",
         speakerIds: [],
         type: "pausa",
         description: "| 20 min"
@@ -533,7 +533,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
       },
       {
         startTime: "9:40 - 10:00",
-        title: "Coffe Break",
+        title: "Intervalo",
         speakerIds: [],
         type: "pausa",
         description: "| 20 min"
@@ -615,7 +615,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
       },
       {
         startTime: "9:40 - 10:00",
-        title: "Coffe Break",
+        title: "Intervalo",
         speakerIds: [],
         type: "pausa",
         description: "| 20 min"
@@ -722,7 +722,7 @@ const AGENDA_DATA: DiaEventoConfig[] = [
       },
       {
         startTime: "9:40 - 10:00",
-        title: "Coffe Break",
+        title: "Intervalo",
         speakerIds: [],
         type: "pausa",
         description: "| 20 min"
